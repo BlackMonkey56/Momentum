@@ -1,3 +1,12 @@
 h1 {
   color: #651fff;
 }
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
