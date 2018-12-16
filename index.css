@@ -21,6 +21,10 @@ li {
   color: white;
 }
 
+.weather {
+  color: white;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
