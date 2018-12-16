@@ -3,12 +3,30 @@ body {
 }
 
 h1 {
-  color: white;
+  color: rebeccapurple;
   font-size: 3em;
 }
 
 li {
   color: white;
+}
+
+button {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.header--weather {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main--info {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .form,
@@ -23,6 +41,7 @@ li {
 
 .weather {
   color: white;
+  font-weight: 600;
 }
 
 @keyframes fadeIn {
